@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A6B12F2B1DA4469A00048F08 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6B12F2A1DA4469A00048F08 /* main.cpp */; };
+		A6B12F461DA4491200048F08 /* dice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A6B12F441DA4491200048F08 /* dice.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		A6B12F271DA4469A00048F08 /* CS172-Exam1-Review */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CS172-Exam1-Review"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6B12F2A1DA4469A00048F08 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A6B12F441DA4491200048F08 /* dice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dice.cpp; sourceTree = "<group>"; };
+		A6B12F451DA4491200048F08 /* dice.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = dice.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				A6B12F2A1DA4469A00048F08 /* main.cpp */,
+				A6B12F441DA4491200048F08 /* dice.cpp */,
+				A6B12F451DA4491200048F08 /* dice.hpp */,
 			);
 			path = "CS172-Exam1-Review";
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B12F461DA4491200048F08 /* dice.cpp in Sources */,
 				A6B12F2B1DA4469A00048F08 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +243,7 @@
 				A6B12F301DA4469A00048F08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
